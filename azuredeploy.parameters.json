@@ -1,0 +1,40 @@
+    
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": { 
+		"namePrefix": {
+			 "value": "linru"
+		 },
+		"name": {
+			"value": "deployment"
+		},
+		"nameSuffix": {
+			 "value": "test"
+		 },
+		 "locationSuffix": {
+			 "value": "location"
+		 },
+		 "location": {
+			 "value": "Central US"
+		 },
+		 "environmentSuffix": {
+			 "value": "EnviroSuf"
+		 },
+		 "workerSize": {
+			 "value": "1"
+		 },
+		 "workerSizeId": {
+			 "value": 0
+		 },
+		 "numberOfWorkers": {
+			 "value": 1
+		 },
+		 "skuCode": {
+			 "value": "S1"
+		 },
+		 "sku": {
+			 "value": "Standard"
+		 }
+  }
+}
